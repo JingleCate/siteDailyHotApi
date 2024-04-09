@@ -17,7 +17,7 @@ const cacheKey = "bilibiliData";
 let updateTime = new Date().toISOString();
 
 // 调用路径
-const url = "https://api.bilibili.com/x/web-interface/ranking/v2";
+const url = "https://api.bilibili.com/x/web-interface/ranking";
 
 // 数据处理
 const getData = (data) => {
